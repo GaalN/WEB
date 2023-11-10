@@ -1,0 +1,216 @@
+a
+{
+	display: block;
+	box-sizing: inline-block;
+}
+
+a:active
+{
+	
+}
+
+a:visited
+{
+	color: orange;
+}
+
+a:hover
+{
+	color: rgb(144,160,80,1);
+	font-weight: bold;
+}
+
+.Zadach1
+{
+	border: 40px;
+	padding: 30px;
+	width: 330px;
+	height: 18.400px;
+	background-color: black;
+	color: white;
+}
+
+.Zadach2
+{
+	border: 40px;
+	padding: 0px;
+	width: 330px;
+	height: 18.400px;
+	background-color: blue;
+}
+
+.Zadach3
+{
+	display: block;
+	box-sizing: border-box;
+	border: 40px;
+	padding: 30px;
+	width: 330px;
+	height: 18.400px;
+	background-color: green;
+}
+
+.Zadach4
+{
+	display: block;
+	-moz-box-sizing: border-box; // Не работает с Opera
+	border: 40px;
+	padding: 30px;
+	width: 330px;
+	height: 18.400px;
+	background-color: yellow;
+}
+
+.Zadach5
+{
+	display: block;
+	-webkit-box-sizing: border-box;
+	border: 40px;
+	padding: 30px;
+	width: 330px;
+	height: 18.400px;
+	background-color: orange;
+}
+
+.Zadach6
+{
+	display: block;
+	box-sizing: content-box;
+	border: 40px;
+	padding: 30px;
+	width: 330px;
+	height: 18.400px;
+	background-color: green;
+}
+
+.Zadach7
+{
+	display: block;
+	-moz-box-sizing: content-box; // Не работает с Opera
+	border: 40px;
+	padding: 30px;
+	width: 330px;
+	height: 18.400px;
+	background-color: yellow;
+}
+
+.Zadach8
+{
+	display: block;
+	-webkit-box-sizing: content-box;
+	border: 40px;
+	padding: 30px;
+	width: 330px;
+	height: 18.400px;
+	background-color: orange;
+}
+
+
+.One
+{
+	border: 2px;
+	padding: 10px;
+	background-color: rgb(186, 175, 175, 0.53); 
+}
+
+.Two
+{
+	border: 2px;
+	padding: 10px;
+	margin: 20px;
+	background-color: rgb(186, 175, 175, 0.53);
+}
+
+.Three
+{
+	display: inline-block;
+	box-sizing: border-box;
+	background-color: rgb(186, 175, 175, 0.53); 
+	padding: 10px;
+	border: 2px;
+}
+
+div.Zadach31>p:first-child
+{
+	color: red;
+}
+
+div.Zadach31>p:first-child>i:first-child
+{
+	color:green;
+}
+
+div.Zadach32>p:first-child>i
+{
+	color: green;
+}
+
+div.Zadacha4>ul>li:first-child
+{
+	color:red;
+	font-weight:bold;
+}
+
+div.Zadacha5>ul>li:last-child
+{
+	color:red;
+	font-weight:bold;
+}
+
+div.Zadacha6 > span,div em 
+{
+  padding: 5px;
+  border: 1px solid green;
+  display: inline-block;
+  margin-bottom: 3px;
+}
+
+div.Zadacha61 span:nth-child(2n + 1)
+{
+  background-color: lime;
+}
+
+div.Zadacha62 span:nth-child(2n + 1)
+{
+  background-color: lime;  
+}
+
+div.Zadacha62 > h1::before
+{
+	 content: url('../img/GreetRing.jpg'); 
+}
+
+div.Zadacha62 > a::after 
+{   
+    content: url('../img/GreetRing.jpg');
+}
+
+div.Zadacha62 > div::first-line { 
+    color: red;   
+}
+
+div.container > h1
+{
+	color: blue;
+}
+
+div.container > h2
+{
+	background-color: blue;
+	color: white;
+}
+
+div.container > p > span
+{
+	font-size: 200%;
+}
+
+.IDZ4
+{
+	background-color: #eeb6fc68;
+}
+
+.IDZ5
+{
+	background-color: #5e5bfc68;
+}
