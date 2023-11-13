@@ -1,0 +1,124 @@
+header
+{
+	justify-content: flex-start;
+	color: white;
+	font-size: 200px;
+	z-index: -2;
+}
+header > img
+{
+	box-shadow: inset 0px 0px 10px 10px #000;
+	position:absolute;
+	z-index: -2;
+	align-self: center;
+}
+
+header > h1
+{
+	margin: 0;
+}
+
+body
+{
+	background-color: black;
+	flex-direction: column;
+}
+
+body > h1
+{
+	justify-content: flex-end;
+	font-size: 100px;
+	color: white;
+	padding: 0px;
+}
+
+div.Columns
+{
+	width: 100%;
+	flex-direction: row;
+	justify-content: space-around;
+	align-items: center;
+	color: black;
+	height: 1280px;
+	z-index: -2;
+}
+
+#First_Art
+{
+	background: url('../img/Bowie_Back.jpg') no-repeat;
+	background-size: cover;
+	height: 1000px;
+	box-shadow: inset 0px 0px 50px 50px #000;
+}
+
+div.ColumnsOfPage
+{
+	width: 250px;
+	background-color: lightgrey;
+	border-radius: 5%;
+	padding:30px;
+}
+
+#First_Col
+{
+	flex-wrap: wrap;
+}
+
+#First_Col > img
+{
+	border: 10px solid;
+	border-color: white;
+	border-top-width: 25px;
+	border-bottom-width: 45px;
+	margin: auto;
+	box-shadow: 3px 3px 6px 6px #888;
+}
+
+#Second_Col
+{
+	flex-direction: column-reverse;
+	margin-left: 60px;
+}
+
+#Second_Col > img
+{
+	align-self: center;
+	border: 10px solid;
+	border-color: white;
+	border-radius: 100%;
+	box-shadow: 3px 3px 6px 6px #888;
+}
+
+div.ColumnsOfDisc
+{
+	flex-direction: column;
+}
+
+div.ColumnsOfDisc > img
+{
+	margin: 30px;
+}
+
+footer
+{
+	position:fixed;
+	height: 50px;
+	width: 100%;
+	bottom: 0px;
+	left: 0px;
+	opacity: 40%;
+	background-color: grey;
+	border-radius: 100%;
+	z-index: -1;
+	box-shadow: inset 0px 0px 5px 5px #000;
+}
+footer > p
+{
+	margin: auto;
+}
+
+*
+{
+	display: flex;
+	flex-wrap: wrap;
+}
