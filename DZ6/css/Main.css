@@ -57,7 +57,7 @@ div.Z1
 
 #Inside
 {
-	position: fixed;
+	position: sticky;
 	top: 80px;
 	left: 10px;
 	width: 100px;
